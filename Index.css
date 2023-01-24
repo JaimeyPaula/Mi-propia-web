@@ -1,0 +1,66 @@
+body{ 
+	background: orange;
+}
+
+.container
+{ border-radius:15px;
+		background: white;
+	width: 95%;
+	margin:auto;
+}
+.header img
+{}
+.header
+{	text-align:right;}
+.izq img
+{ width: 100%;padding-bottom: 50px}
+.centro
+{display: flex;
+align-items: center;margin:auto;
+width:95%}
+.der
+{	display: inline-block;
+	text-align:right;width: 55%; height: 1000px; padding-right:15px;box-shadow: 0px 0px 30px orange;
+	margin-left: 5px;
+}
+.izq
+{width:45%;	display: inline-block; text-align:right ; height: 1000px; box-shadow: 0px 0px 30px orange;}
+.col
+{
+			
+width: 100%;padding:10px;text-align: justify;padding-bottom:80px;
+}
+
+.menu
+{
+	float: left;
+}
+.doble_subrayado
+{border-top: 1px solid blue; 
+	border-bottom: 1px solid blue;}
+.menu li
+{
+	display: inline-block;
+	margin-right:15px;
+}
+.menu a:hover
+{
+	color:black;
+	background:pink;
+	padding:5px;border-radius:15px;
+}
+
+.enlace li
+{ display: inline-block;}
+.enlace a:hover
+{
+	color:black;
+	background:pink;
+	padding:5px;border-radius:15px;
+}
+.footer
+{
+	overflow:hidden;
+}
+.p
+{ padding: 10px;}
